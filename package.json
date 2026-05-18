@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "commafy",
   "title": "Commafy",
-  "description": "Format numbers in any text selection — insert thousand separators, remove them, normalize full-width digits, or format in Japanese 万/億 units. Skips decimals, phone numbers, dates and year tokens by default.",
+  "description": "Format numbers in any text selection: insert or remove thousand separators, normalize full-width digits, or render in Japanese 万/億 units — while skipping decimals, phone numbers, dates, and year tokens by default.",
   "icon": "Commafy.png",
   "author": "zaaaato",
   "categories": [
@@ -27,6 +27,7 @@
           "description": "Minimum integer-part digit count before commas are inserted.",
           "type": "textfield",
           "default": "4",
+          "placeholder": "4",
           "required": false
         },
         {
@@ -127,7 +128,6 @@
     {
       "name": "normalize-digits",
       "title": "Normalize Full-Width Digits",
-      "subtitle": "全角→半角",
       "description": "Convert full-width digits (０-９) and numeric punctuation (．，－) in the selected text to half-width.",
       "mode": "no-view"
     },
@@ -189,6 +189,7 @@
           "description": "Minimum integer-part digit count before commas are inserted.",
           "type": "textfield",
           "default": "4",
+          "placeholder": "4",
           "required": false
         },
         {

@@ -1,6 +1,6 @@
 # Commafy
 
-A Raycast extension for formatting numbers inside any text selection on macOS — universal across every app, optimised for mixed **Japanese / English** content.
+A Raycast extension for formatting numbers inside any text selection on macOS — universal across every app, optimized for mixed **Japanese / English** content.
 
 Commafy ships five commands. The four formatting commands share a fast, context-aware tokenizer so that decimals, phone numbers, `yyyy-mm-dd` dates, Japanese year tokens (`xxxx年`), alphanumeric identifiers (`SKU1234A`, `v1234`) and scientific notation (`1234e5`) are skipped by default. The fifth, `Normalize Full-Width Digits`, runs a separate character-level pass that converts full-width digits and numeric punctuation to half-width.
 
