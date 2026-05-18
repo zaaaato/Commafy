@@ -3,7 +3,7 @@
   "name": "commafy",
   "title": "Commafy",
   "description": "Format numbers in any text selection — insert thousand separators, remove them, normalize full-width digits, or format in Japanese 万/億 units. Skips decimals, phone numbers, dates and year tokens by default.",
-  "icon": "icon.png",
+  "icon": "Commafy.png",
   "author": "zaaaato",
   "categories": [
     "Productivity",
